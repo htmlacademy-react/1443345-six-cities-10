@@ -1,6 +1,6 @@
 import React, {ReactElement} from 'react';
 
-function Login(): ReactElement {
+export function Login(): ReactElement {
   return (
     <div className="page page--gray page--login">
       <header className="header">
@@ -42,6 +42,4 @@ function Login(): ReactElement {
       </main>
     </div>
   );
-}
-
-export default Login;
+};

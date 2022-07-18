@@ -1,11 +1,9 @@
-import MainPage from '../../pages/Main/Main';
+import { MainPage } from '../../pages/main/main';
 
 type numberOfPlacesProp = {
   numberOfPlaces: number
 }
 
-function App({numberOfPlaces}: numberOfPlacesProp): JSX.Element {
+export function App({numberOfPlaces}: numberOfPlacesProp): JSX.Element {
   return <MainPage numberOfPlaces={numberOfPlaces} />;
 }
-
-export default App;

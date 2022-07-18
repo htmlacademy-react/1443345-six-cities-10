@@ -1,6 +1,6 @@
 import React, {ReactElement} from 'react';
 
-function Favorites(): ReactElement {
+export function Favorites(): ReactElement {
   return (
     <div className="page">
       <header className="header">
@@ -168,6 +168,4 @@ function Favorites(): ReactElement {
       </footer>
     </div>
   );
-}
-
-export default Favorites;
+};

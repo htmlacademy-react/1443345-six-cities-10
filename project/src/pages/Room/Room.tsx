@@ -1,6 +1,6 @@
 import React, {ReactElement} from 'react';
 
-function Room(): ReactElement {
+export function Room(): ReactElement {
   return (
     <div className="page">
       <header className="header">
@@ -467,6 +467,4 @@ function Room(): ReactElement {
       </main>
     </div>
   );
-}
-
-export default Room;
+};

@@ -1,12 +1,12 @@
-import React, {ReactElement} from 'react';
+import React, { ReactElement } from 'react';
 
-import Card from '../../components/Card/Card';
+import { Card } from '../../components/card/card';
 
 type numberOfPlacesProp = {
   numberOfPlaces: number
 }
 
-function MainPage({numberOfPlaces}: numberOfPlacesProp): ReactElement {
+export function MainPage({numberOfPlaces}: numberOfPlacesProp): ReactElement {
   return (
     <div className="page page--gray page--main">
       <header className="header">
@@ -113,5 +113,3 @@ function MainPage({numberOfPlaces}: numberOfPlacesProp): ReactElement {
     </div>
   );
 }
-
-export default MainPage;
