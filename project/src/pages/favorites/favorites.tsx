@@ -168,4 +168,4 @@ export function Favorites(): ReactElement {
       </footer>
     </div>
   );
-};
+}

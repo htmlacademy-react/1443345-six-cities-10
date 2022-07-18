@@ -467,4 +467,4 @@ export function Room(): ReactElement {
       </main>
     </div>
   );
-};
+}

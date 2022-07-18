@@ -1,4 +1,4 @@
-import { MainPage } from '../../pages/main/main';
+import { MainPage } from '../../pages/main-page/main-page';
 
 type numberOfPlacesProp = {
   numberOfPlaces: number

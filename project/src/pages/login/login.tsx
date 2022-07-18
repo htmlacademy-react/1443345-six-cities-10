@@ -42,4 +42,4 @@ export function Login(): ReactElement {
       </main>
     </div>
   );
-};
+}
